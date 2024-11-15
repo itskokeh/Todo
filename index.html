@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="pseudo.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Todo</title>
+</head>
+<body>
+  <div class="nav">
+    <h1 class="header">TODO LIST</h1>
+    <li id="taskAdd"> + Add Task</li>
+  </div>
+  <div class="main" id="main">
+    <form action="" id="form">
+      <p>Write Your Plans</p>
+      <label for="title"></label>
+      <input type="text" name="title" id="title" placeholder="Task Name">
+      <label for="description"></label>
+      <input type="text" name="description" id="description" placeholder="What Is It about?">
+      <label for="date"></label>
+      <input type="date" name="date" id="date">
+      <select name="priority" id="dropdown">
+        <option value="high" class="hi">High</option>
+        <option value="mid" class="mid">Mid</option>
+        <option value="low" class="lo" selected>Low</option>
+      </select>
+      <label for="submit"></label>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
